@@ -26,3 +26,6 @@ body {
 }
 
 /* Information Section */
+.info {
+  display: flex;
+}
