@@ -38,6 +38,12 @@ body {
   justify-content: space-around;
 }
 
+.hero-content-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
 /******************************/
 /* MAIN SECTION */
 /******************************/
