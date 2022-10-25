@@ -53,3 +53,8 @@ body {
 .caption {
   align-self: end;
 }
+
+/* Call To Action Section*/
+.call-to-action {
+  display: flex;
+}
