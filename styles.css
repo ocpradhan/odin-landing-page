@@ -62,4 +62,7 @@ body {
 
 /* Footer */
 .footer {
+  display: flex;
+  justify-content: center;
+  justify-self: end;
 }
