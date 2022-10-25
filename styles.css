@@ -88,6 +88,7 @@ body {
   font-size: 18px;
   color: #1f2937;
 }
+
 .boxes {
   display: flex;
   gap: 10px;
@@ -103,6 +104,11 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .caption {
