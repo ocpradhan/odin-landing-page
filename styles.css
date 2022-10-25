@@ -57,4 +57,5 @@ body {
 /* Call To Action Section*/
 .call-to-action {
   display: flex;
+  justify-content: center;
 }
