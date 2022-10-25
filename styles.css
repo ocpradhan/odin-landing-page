@@ -35,4 +35,10 @@ body {
 
 .boxes {
   display: flex;
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: auto;
 }
