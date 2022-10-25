@@ -23,6 +23,12 @@ body {
   list-style-type: none;
 }
 
+.header-links a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
 .hero-content {
   display: flex;
   justify-content: space-around;
