@@ -28,4 +28,6 @@ body {
 /* Information Section */
 .info {
   display: flex;
+  justify-content: center;
+  gap: 10px;
 }
