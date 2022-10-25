@@ -13,6 +13,10 @@ body {
 /******************************/
 /* HERO SECTION */
 /******************************/
+.hero-section {
+  background-color: #1f2937;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
