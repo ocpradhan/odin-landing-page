@@ -44,6 +44,11 @@ body {
   color: #f9faf8;
 }
 
+.hero-content-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 /******************************/
 /* MAIN SECTION */
 /******************************/
