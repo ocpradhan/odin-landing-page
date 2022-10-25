@@ -25,12 +25,12 @@ body {
 .header-links {
   display: flex;
   list-style-type: none;
+  font-size: 18px;
 }
 
 .header-links a {
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 18px;
 }
 
 .hero-content {
