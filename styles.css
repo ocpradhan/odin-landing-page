@@ -75,12 +75,10 @@ body {
 }
 
 .btn1 {
-  background-color: #3882f6;
   font-size: 18px;
 
   border: none;
-  padding: 5px 20px;
-  border-radius: 5px;
+
   color: #f9faf8;
 }
 
@@ -99,28 +97,44 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+
+  margin-bottom: 70px;
 }
 
 .info h3 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+
+  margin-bottom: 35px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+
+  gap: 40px;
+}
+
+.box {
+  width: 200px;
+  height: auto;
+}
+
+.box img {
+  width: 200px;
+  height: auto;
+
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+  margin-bottom: 5px;
 }
 
 .info p {
   font-size: 18px;
   color: #1f2937;
-}
 
-.boxes {
-  display: flex;
-  gap: 10px;
-}
-
-.box {
-  width: 100px;
-  height: auto;
+  text-align: center;
 }
 
 /* Quote Section */
@@ -133,12 +147,16 @@ body {
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+
+  padding: 70px 300px;
 }
 
 .caption {
   align-self: end;
   font-weight: bold;
   font-style: normal;
+
+  font-size: 18px;
 }
 
 /* Call To Action Section*/
@@ -146,6 +164,11 @@ body {
   display: flex;
   justify-content: center;
   background-color: #3882f6;
+
+  margin: 70px auto;
+  padding: 50px 100px;
+  border-radius: 10px;
+  gap: 150px;
 }
 
 .call-to-action-left {
@@ -154,9 +177,12 @@ body {
 }
 
 .btn2 {
-  font-size: 18px;
   color: #f9faf8;
-  background-color: #3882f6;
+
+  border: 2px solid #f9faf8;
+
+  /* padding: 0px 28px; */
+  font-weight: 900;
 }
 
 /******************************/
@@ -170,4 +196,14 @@ body {
   justify-content: center;
   background-color: #1f2937;
   color: #f9faf8;
+
+  padding: 30px;
+}
+
+.btn {
+  font-weight: 900;
+  background-color: #3882f6;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px 20px;
 }
