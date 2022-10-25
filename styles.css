@@ -83,8 +83,6 @@ body {
 }
 
 .btn1 {
-  font-size: 18px;
-
   border: none;
 
   color: #f9faf8;
@@ -188,9 +186,7 @@ body {
   color: #f9faf8;
 
   border: 2px solid #f9faf8;
-
-  /* padding: 0px 28px; */
-  font-weight: 900;
+  align-self: center;
 }
 
 /******************************/
