@@ -16,11 +16,16 @@ body {
 /******************************/
 .hero-section {
   background-color: #1f2937;
+
+  padding: 20px 160px 120px;
+  margin-bottom: 35px;
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+
+  margin-bottom: 120px;
 }
 
 .header h3 {
@@ -32,6 +37,8 @@ body {
   display: flex;
   list-style-type: none;
   font-size: 18px;
+
+  gap: 20px;
 }
 
 .header-links a {
@@ -41,7 +48,12 @@ body {
 
 .hero-content {
   display: flex;
-  justify-content: space-around;
+
+  justify-content: space-between;
+}
+
+.hero-content-left {
+  padding-right: 10px;
 }
 
 .hero-content-left h1 {
@@ -53,11 +65,23 @@ body {
 .hero-content-left p {
   font-size: 18px;
   color: #e5e7eb;
+
+  margin-bottom: 10px;
+}
+
+.hero-content-right img {
+  width: 480px;
+  height: auto;
 }
 
 .btn1 {
   background-color: #3882f6;
   font-size: 18px;
+
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #f9faf8;
 }
 
 /******************************/
