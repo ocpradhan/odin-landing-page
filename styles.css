@@ -9,7 +9,9 @@ body {
   flex-direction: column;
 }
 
-/* Hero Section */
+/******************************/
+/* HERO SECTION */
+/******************************/
 .header {
   display: flex;
   justify-content: space-around;
@@ -24,6 +26,10 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+/******************************/
+/* MAIN SECTION */
+/******************************/
 
 /* Information Section */
 .info {
@@ -60,9 +66,10 @@ body {
   justify-content: center;
 }
 
+/******************************/
+/* FOOTER SECTION */
+/******************************/
+
 /* Footer */
 .footer {
-  display: flex;
-  justify-content: center;
-  justify-self: end;
 }
