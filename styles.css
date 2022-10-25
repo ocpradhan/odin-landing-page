@@ -113,6 +113,8 @@ body {
 
 .caption {
   align-self: end;
+  font-weight: bold;
+  font-style: normal;
 }
 
 /* Call To Action Section*/
