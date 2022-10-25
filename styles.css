@@ -11,6 +11,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.btn {
+  font-weight: 900;
+  background-color: #3882f6;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
 /******************************/
 /* HERO SECTION */
 /******************************/
@@ -198,12 +206,4 @@ body {
   color: #f9faf8;
 
   padding: 30px;
-}
-
-.btn {
-  font-weight: 900;
-  background-color: #3882f6;
-  font-size: 18px;
-  border-radius: 5px;
-  padding: 5px 20px;
 }
