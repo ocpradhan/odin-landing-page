@@ -7,6 +7,7 @@
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 /******************************/
@@ -30,6 +31,12 @@ body {
 /******************************/
 /* MAIN SECTION */
 /******************************/
+
+.main-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
 
 /* Information Section */
 .info {
@@ -72,4 +79,7 @@ body {
 
 /* Footer */
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
